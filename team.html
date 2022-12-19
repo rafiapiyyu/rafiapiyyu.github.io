@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservasi</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container container-nav">
+            <div class="site-title">
+                <h1>RA Haircut</h1>
+                <p class="subtitle">Dapatkan rambut impian anda disini</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="about.html">Tentang</a></li>
+                    <li><a href="price.html">Layanan</a></li>
+                    <li><a href="team.html">Reservasi</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="current-page">Kontak</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+    <main class="team">
+        <div class="team-container">
+            <div class="team-header">
+                <h1>Pegawai Kami</h1>
+                <div class="nengahin">
+                    <center><button class="productButton">Reservasi sekarang</button></center>
+            </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="img/19.jpg" alt="" style="width: 100%">
+                <h3>Beno</h3>
+                <p>Barber</p>
+                <img src="img/20.jpg" alt="" style="width: 100%">
+                <h3>Edgar</h3>
+                <p>Barber</p>
+            </div>
+            <div class="column">
+                <img src="img/21.jpg" alt="" style="width: 100%">
+                <h3>Siti</h3>
+                <p>Barber</p>
+                <img src="img/22.jpg" alt="" style="width: 100%">
+                <h3>Rayhan</h3>
+                <p>Barber</p>
+            </div>
+            <div class="column">
+                <img src="img/23.jpg" alt="" style="width: 100%">
+                <h3>Jaya</h3>
+                <p>Barber</p>
+                <img src="img/24.jpg" alt="" style="width: 100%">
+                <h3>Adit</h3>
+                <p>Barber</p>
+            </div>
+            <div class="column">
+                <img src="img/25.jpg" alt="" style="width: 100%">
+                <h3>Amel</h3>
+                <p>Barber</p>
+                <img src="img/27.jpg" alt="" style="width: 100%">
+                <h3>Nabil</h3>
+                <p>Barber</p>
+            </div>
+        </div>
+    </main>
+    <div class="payment" id="bayar">
+        <h1 class="payTitle">Informasi Reservasi</h1>
+        <label>Nama</label>
+        <input type="text" placeholder="...." class="payInput">
+        <label>NO. Telp</label>
+        <input type="text" placeholder="...." class="payInput">
+        <label>Jam Reservasi</label>
+        <input type="time" id="appt" name="appt" class="payinput" min="09:00" max="21:00" required>
+        <label>Hari Reservasi</label>
+        <input type="date" placeholder="...." class="payInput">
+        <label>Pegawai</label>
+        <select name="cars" id="cars">
+            <option value=""></option>
+            <option value="">Beno</option>
+            <option value="">Siti</option>
+            <option value="">Jaya</option>
+            <option value="">Amel</option>
+            <option value="">Edgar</option>
+            <option value="">Rayhan</option>
+            <option value="">Adit</option>
+            <option value="">Nabil</option>
+          </select>
+        <label>Layanan</label>
+        <select name="cars" id="cars">
+            <option value=""></option>
+            <option value="">Haircut</option>
+            <option value="">Hair Color</option>
+            <option value="">Treatment</option>
+          </select>
+        <button class="payButton" onclick="document.location.reload(true)">Pesan</button>
+        <span class="close">X</span>
+    </div>
+    <footer class="footer">
+        <h3><span id="demo">&copy;</span><a href="#"> RA Haircut</a></h3>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
